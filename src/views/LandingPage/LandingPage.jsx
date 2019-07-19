@@ -40,6 +40,8 @@ import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.js
 import ProductSection from "./Sections/ProductSection.jsx";
 import TeamSection from "./Sections/TeamSection.jsx";
 import WorkSection from "./Sections/WorkSection.jsx";
+import GallerySection from "./Sections/GallerySection.jsx";
+import CarouselSection from "./Sections/CarouselSection.jsx";
 
 const dashboardRoutes = [];
 
@@ -48,6 +50,12 @@ class LandingPage extends React.Component {
     const { classes, ...rest } = this.props;
     return (
       <div>
+        <link
+          rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossOrigin="anonymous"
+        />
         <Header
           color="transparent"
           routes={dashboardRoutes}
@@ -88,8 +96,10 @@ class LandingPage extends React.Component {
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
+            <CarouselSection />
             <ProductSection />
             <TeamSection />
+            <GallerySection />
             <WorkSection />
           </div>
         </div>

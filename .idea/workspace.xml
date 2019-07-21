@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a6b8c5b-f797-4e6f-9a9e-60116949b219" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/carousel/info1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/carousel/info2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/carousel/info3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/content/fiet_logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/content/geekologo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/content/hotelreview.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/content/wedding.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/productpic/43743554_2066098986782241_3044794589211787264_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/productpic/51819986_2230121137046691_4414929284515233792_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/productpic/53556231_2272869819438489_14932299913101312_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/productpic/54729697_2291162747609196_7777650190634188800_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/productpic/56527856_2317070411685096_5627144174147993600_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/productpic/56691546_2317174881674649_6899277847584571392_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/productpic/57595629_2338384556220348_9050348686629928960_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/productpic/60695482_2382019301856873_5264164122752188416_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/productpic/64956708_2446825532042916_6044894138128662528_o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/productpic/66118572_2467970316595104_7208033138004459520_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NotAvalible/NotAbalible.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/CotNCol/CotNCol.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Promotions/PromotionPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Sizing/Sizing.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Components.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Components.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/LandingPage/Sections/CarouselSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LandingPage/Sections/CarouselSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/LandingPage/Sections/ProductSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LandingPage/Sections/ProductSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/LandingPage/Sections/TeamSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LandingPage/Sections/TeamSection.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,15 +42,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+            <state relative-caret-position="106">
+              <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
               <folding>
                 <element signature="e#939#989#0" expanded="true" />
                 <element signature="e#1445#1504#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.eslintrc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.eslintignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/static.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -111,7 +113,6 @@
       <find>a</find>
       <find>material-kit-react.css</find>
       <find>Follow us</find>
-      <find>eslint-plugin-react</find>
       <find>from &quot;e</find>
       <find>รู้จัก</find>
       <find>http://example.com/example/img2.jpg</find>
@@ -130,6 +131,7 @@
       <find>classes</find>
       <find>Brand</find>
       <find>Link</find>
+      <find>eslint-plugin-react</find>
       <find>Route</find>
     </findStrings>
     <replaceStrings>
@@ -144,7 +146,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/build" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -168,6 +170,7 @@
         <option value="$PROJECT_DIR$/src/components/Header/Header.jsx" />
         <option value="$PROJECT_DIR$/src/views/Sizing/Sizing.jsx" />
         <option value="$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx" />
+        <option value="$PROJECT_DIR$/build/static.json" />
       </list>
     </option>
   </component>
@@ -271,17 +274,18 @@
       <workItem from="1563244591247" duration="799000" />
       <workItem from="1563246445067" duration="3290000" />
       <workItem from="1563459704621" duration="17786000" />
-      <workItem from="1563675793655" duration="4232000" />
+      <workItem from="1563675793655" duration="4741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26107000" />
+    <option name="totallyTimeSpent" value="26616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24543288" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24543288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -295,7 +299,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -373,13 +377,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js" />
-    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/SvgIcon/SvgIcon.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -586,12 +583,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        <state relative-caret-position="106">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
           <folding>
             <element signature="e#939#989#0" expanded="true" />
             <element signature="e#1445#1504#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/static.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -33,15 +33,9 @@ import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
+import NotAvalible from "../../components/NotAvalible/NotAbalible";
 
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
-
-// Sections for this page
-import ProductSection from "./Sections/ProductSection.jsx";
-import TeamSection from "./Sections/TeamSection.jsx";
-import WorkSection from "./Sections/WorkSection.jsx";
-import GallerySection from "./Sections/GallerySection.jsx";
-import CarouselSection from "./Sections/CarouselSection.jsx";
 
 const dashboardRoutes = [];
 
@@ -50,7 +44,7 @@ class LandingPage extends React.Component {
     const { classes, ...rest } = this.props;
     return (
       <div>
-        <cd
+        <link
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
@@ -72,13 +66,8 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>
-                  มาปักกับเราเถอะ รับรองไม่ผิดหวัง.
-                </h1>
-                <h4>
-                  รับปักเสื้อและสกีนเสื้อ ทั้งเสื้อยืดเสื้อโปโล
-                  งานคุณภาพราคาเป็นมิตรการันตีด้วยประสบการณ์การทำงานมากกว่า30ปี
-                </h4>
+                <h1 className={classes.title}>คุณภาพต้องมาก่อน!</h1>
+                <h4>เราใช้เทคโนโลยีช่วยในการลดต้นทุนและเพิ่มคุณภาพในการผลิต</h4>
                 <br />
                 <Button
                   color="danger"
@@ -95,13 +84,7 @@ class LandingPage extends React.Component {
           </div>
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
-          <div className={classes.container}>
-            <CarouselSection />
-            <ProductSection />
-            <TeamSection />
-            <GallerySection />
-            <WorkSection />
-          </div>
+          <NotAvalible />
         </div>
         <Footer />
       </div>

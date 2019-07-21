@@ -24,7 +24,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 import Chat from "@material-ui/icons/Chat";
 import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Fingerprint from "@material-ui/icons/Fingerprint";
+import Fingerprint from "@material-ui/icons/AccessTime";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
@@ -41,12 +41,11 @@ class ProductSection extends React.Component {
           <GridItem xs={12} sm={12} md={8}>
             <h2 className={classes.title}>รู้จัก SCNP</h2>
             <h5 className={classes.description}>
-              เราเป็นโรงงานผู้ผลิตเสื้อผ้าสำเร็จรูปคุณภาพครบวงจร ตั้งแต่การทอผ้า
-              ตัดเย็บ ซิลค์สกรีน ด้วยเครื่องจักรและเทคโนโลยีที่ทันสมัย
+              เราเป็นโรงงานผลิตเสื้อผ้าสำเร็จรูปที่มีคุณภาพและครบวงจร
+              ตั้งแต่การขึ้นแพทเทิร์น ตัดเย็บ รวมไปถึงการปัก/สกรีน
+              ด้วยเครื่องจักรและเทคโนโลยีที่ทันสมัย
               สามารถรองรับการผลิตได้ปริมาณมาก
-              มีการตรวจสอบคุณภาพของสินค้าเพื่อให้ได้เสื้อผ้าที่ได้มาตรฐาน
-              เนื้อผ้าสวมใส่สบาย ลวดลายคมชัด งานปักที่มีประสิทธิภาพ
-              งานเย็บมีความทนทาน
+              มีการตรวจสอบคุณภาพของสินค้า{' '}เพื่อให้ได้สินค้าที่มีมาตรฐานและคุณภาพดี
             </h5>
           </GridItem>
         </GridContainer>
@@ -54,17 +53,8 @@ class ProductSection extends React.Component {
           <GridContainer>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="ต่อรองราคาได้"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={Chat}
-                iconColor="info"
-                vertical
-              />
-            </GridItem>
-            <GridItem xs={12} sm={12} md={4}>
-              <InfoArea
                 title="การันตีคุณภาพ"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+                description="ทางร้านเราการันตีคุณภาพของผลงาน จากประสบการณ์มากกว่า10ปี และก่อนส่งงานทุกครั้งจะผ่านการ QC อย่างดี ดังนั้นคุณลูกค้าไว้วางใจได้เลยค่ะ"
                 icon={VerifiedUser}
                 iconColor="success"
                 vertical
@@ -72,8 +62,17 @@ class ProductSection extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="เยี่ยมยอดลอดช่อง"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+                title="ต่อรองราคาได้"
+                description="เนื่องจากร้านเราได้นำเทคโนโลยีมาใช้ในการลดต้นทุนการผลิต จึงทำให้คุณลูกค้าสามารถต่อรองราคาได้เหมือนเป็นครอบครัวเดียวกัน"
+                icon={Chat}
+                iconColor="info"
+                vertical
+              />
+            </GridItem>
+            <GridItem xs={12} sm={12} md={4}>
+              <InfoArea
+                title="ตรงต่อเวลา"
+                description="คุณลูกค้าสามารถไว้วางใจเรื่องตรงต่อได้อย่างแน่นอน เพราะเรามีระบบการเช็คสถานะสินค้าออนไลน์ว่าตอนนี้อยู่ในขั้นตอนการผลิตขั้นไหน ได้ตลอด 24 ชั่วโมง "
                 icon={Fingerprint}
                 iconColor="danger"
                 vertical

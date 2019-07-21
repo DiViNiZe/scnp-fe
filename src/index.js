@@ -21,12 +21,15 @@ import { createBrowserHistory } from "history";
 import { Router, Route, Switch } from "react-router-dom";
 
 import "assets/scss/material-kit-react.scss?v=1.7.0";
-
+import "assets/css/custom.css";
 // pages for this product
 import Components from "views/Components/Components.jsx";
 import LandingPage from "views/LandingPage/LandingPage.jsx";
 import ProfilePage from "views/ProfilePage/ProfilePage.jsx";
 import LoginPage from "views/LoginPage/LoginPage.jsx";
+import PromotionPage from "./views/Promotions/PromotionPage";
+import CotNCol from "./views/CotNCol/CotNCol";
+import Sizing from "./views/Sizing/Sizing";
 
 const hist = createBrowserHistory();
 
@@ -36,6 +39,9 @@ ReactDOM.render(
       <Route path="/landing-page" component={LandingPage} />
       <Route path="/profile-page" component={ProfilePage} />
       <Route path="/login-page" component={LoginPage} />
+      <Route path="/promotion" component={PromotionPage} />
+      <Route path="/cotnnol" component={CotNCol} />
+      <Route path="/size" component={Sizing} />
       <Route path="/" component={LandingPage} />
     </Switch>
   </Router>,

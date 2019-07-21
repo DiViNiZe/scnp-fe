@@ -29,7 +29,7 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import {Apps, CloudDownload} from "@material-ui/icons";
+import {Apps} from "@material-ui/icons";
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
@@ -65,49 +65,40 @@ function HeaderLinks({...props}) {
                 {/*/>*/}
             </ListItem>
             <ListItem className={classes.listItem}>
-                <Button
-                    href="https://www.creative-tim.com/product/material-kit-react?ref=mkr-navbar"
+                <Link
+                    to={'/promotion'}
                     color="transparent"
-                    target="_blank"
                     className={classes.navLink}
                 >
-                    <CloudDownload className={classes.icons}/> โปรโมชั่น
-                </Button>
+                     โปรโมชั่น
+                </Link>
             </ListItem><ListItem className={classes.listItem}>
-                <Button
-                    href="https://www.creative-tim.com/product/material-kit-react?ref=mkr-navbar"
-                    color="transparent"
-                    target="_blank"
-                    className={classes.navLink}
-                >
-                    <CloudDownload className={classes.icons}/> ขนาดเสื้อ
-                </Button>
+            <Link
+                to={'/size'}
+                color="transparent"
+                className={classes.navLink}
+            >
+                     ขนาดเสื้อ
+                </Link>
             </ListItem><ListItem className={classes.listItem}>
-                <Button
-                    href="https://www.creative-tim.com/product/material-kit-react?ref=mkr-navbar"
-                    color="transparent"
-                    target="_blank"
-                    className={classes.navLink}
-                >
-                    <CloudDownload className={classes.icons}/> ติดต่อ
-                </Button>
+            <Link
+                to={'/profile-page'}
+                color="transparent"
+                className={classes.navLink}
+            >
+                     ติดต่อ
+                </Link>
             </ListItem>
             <ListItem className={classes.listItem}>
-                <Button
-                    href="https://www.creative-tim.com/product/material-kit-react?ref=mkr-navbar"
+                <Link
+                    to={'/cotncol'}
                     color="transparent"
-                    target="_blank"
                     className={classes.navLink}
                 >
-                    <CloudDownload className={classes.icons}/> Download
-                </Button>
+                     สีและเนื้อผ้า
+                </Link>
             </ListItem>
             <ListItem className={classes.listItem}>
-                {/*<Tooltip title="Delete">
-          <IconButton aria-label="Delete">
-            <DeleteIcon />
-          </IconButton>
-        </Tooltip>*/}
                 <Tooltip
                     id="instagram-twitter"
                     title="Follow us on Line"
@@ -115,7 +106,7 @@ function HeaderLinks({...props}) {
                     classes={{tooltip: classes.tooltip}}
                 >
                     <Button
-                        href="https://twitter.com/CreativeTim?ref=creativetim"
+                        href="http://line.me/ti/p/@zea0113s"
                         target="_blank"
                         color="transparent"
                         className={classes.navLink}
@@ -150,7 +141,7 @@ function HeaderLinks({...props}) {
                 >
                     <Button
                         color="transparent"
-                        href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                        href="https://www.instagram.com/scnp.embo/"
                         target="_blank"
                         className={classes.navLink}
                     >

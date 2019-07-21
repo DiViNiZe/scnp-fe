@@ -1,25 +1,21 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 
+import info1 from "assets/img/carousel/info1.png";
+import info2 from "assets/img/carousel/info2.png";
+import info3 from "assets/img/carousel/info3.png";
+
 export default () => (
-  <Carousel style={{ paddingTop: "66px" }}>
+  <Carousel style={{ paddingTop: "33px" }}>
     <Carousel.Item>
-      <img
-        className="d-block w-100"
-        src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60"
-        alt="First slide"
-      />
+      <img className="d-block w-100" src={info1} alt="First slide" />
       <Carousel.Caption>
         <h3>First slide label</h3>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
-      <img
-        className="d-block w-100"
-        src="https://images.unsplash.com/photo-1538032746644-0212e812a9e7?auto=format&fit=crop&w=400&h=250&q=60"
-        alt="Third slide"
-      />
+      <img className="d-block w-100" src={info2} alt="Third slide" />
 
       <Carousel.Caption>
         <h3>Second slide label</h3>
@@ -27,11 +23,7 @@ export default () => (
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
-      <img
-        className="d-block w-100"
-        src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250&q=80"
-        alt="Third slide"
-      />
+      <img className="d-block w-100" src={info3} alt="Third slide" />
 
       <Carousel.Caption>
         <h3>Third slide label</h3>

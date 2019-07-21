@@ -72,8 +72,7 @@ class TeamSection extends React.Component {
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
                   <a
-                    justIcon
-                    href={'http://www.geekocustom.com/'}
+                    href={"http://www.geekocustom.com/"}
                     color="transparent"
                     className={classes.margin5}
                   >

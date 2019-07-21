@@ -36,6 +36,7 @@ import Parallax from "components/Parallax/Parallax.jsx";
 import NotAvalible from "../../components/NotAvalible/NotAbalible";
 
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
+import promotion from '../../assets/img/promotions/promotion-01.png'
 
 const dashboardRoutes = [];
 
@@ -84,7 +85,7 @@ class LandingPage extends React.Component {
           </div>
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
-          <NotAvalible />
+         <img src={promotion} style={{width:'100%'}} alt={'promotion pic'} />
         </div>
         <Footer />
       </div>

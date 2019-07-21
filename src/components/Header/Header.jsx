@@ -31,7 +31,9 @@ import Drawer from "@material-ui/core/Drawer";
 // @material-ui/icons
 import Menu from "@material-ui/icons/Menu";
 // core components
-import headerStyle from "assets/jss/material-kit-react/components/headerStyle.jsx"
+import headerStyle from "assets/jss/material-kit-react/components/headerStyle.jsx";
+
+import logo from "assets/img/content/scnplogo.png";
 
 class Header extends React.Component {
   constructor(props) {
@@ -88,7 +90,11 @@ class Header extends React.Component {
       [classes.absolute]: absolute,
       [classes.fixed]: fixed
     });
-    const brandComponent = <Button href={'/'} className={classes.title}>{brand}</Button>;
+    const brandComponent = (
+      <Button href={"/"} className={classes.title}>
+        <img width={60} style={{ paddingRight: "11px" }} src={logo} alt={'logo'} /> {brand}
+      </Button>
+    );
     return (
       <AppBar className={appBarClasses}>
         <Toolbar className={classes.container}>

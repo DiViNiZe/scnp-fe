@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a6b8c5b-f797-4e6f-9a9e-60116949b219" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/content/scnplogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/promotions/promotion-01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/LandingPage/Sections/TeamSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LandingPage/Sections/TeamSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Promotions/PromotionPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Promotions/PromotionPage.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="5a6b8c5b-f797-4e6f-9a9e-60116949b219" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -52,7 +42,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/Promotions/PromotionPage.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="438">
               <caret line="87" column="49" selection-start-line="87" selection-start-column="49" selection-end-line="87" selection-end-column="49" />
               <folding>
                 <element signature="e#939#989#0" expanded="true" />
@@ -287,16 +277,15 @@
       <workItem from="1563244591247" duration="799000" />
       <workItem from="1563246445067" duration="3290000" />
       <workItem from="1563459704621" duration="17786000" />
-      <workItem from="1563675793655" duration="9600000" />
+      <workItem from="1563675793655" duration="9769000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31475000" />
+    <option name="totallyTimeSpent" value="31644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24543288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -637,7 +626,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Promotions/PromotionPage.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="438">
           <caret line="87" column="49" selection-start-line="87" selection-start-column="49" selection-end-line="87" selection-end-column="49" />
           <folding>
             <element signature="e#939#989#0" expanded="true" />

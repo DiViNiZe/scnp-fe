@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a6b8c5b-f797-4e6f-9a9e-60116949b219" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/views/About/about.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/carousel/info1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/carousel/info1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/carousel/info2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/carousel/info3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/LandingPage/Sections/CarouselSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LandingPage/Sections/CarouselSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +30,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img/carousel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -51,11 +50,11 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/views" />
       <recent name="$PROJECT_DIR$/src/assets/img/carousel" />
       <recent name="$PROJECT_DIR$/src/assets/img/content" />
       <recent name="$PROJECT_DIR$/src/assets/img/promotions" />
       <recent name="$PROJECT_DIR$/src/assets/img/productpic" />
-      <recent name="$PROJECT_DIR$/src/assets/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -103,7 +102,7 @@
       <workItem from="1563675793655" duration="9769000" />
       <workItem from="1564977729839" duration="331000" />
       <workItem from="1564990597699" duration="555000" />
-      <workItem from="1564991729500" duration="4353000" />
+      <workItem from="1564991729500" duration="4655000" />
     </task>
     <servers />
   </component>

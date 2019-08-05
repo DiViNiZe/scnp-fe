@@ -72,15 +72,7 @@ function HeaderLinks({...props}) {
                 >
                     โปรโมชั่น
                 </Link>
-            </ListItem><ListItem className={classes.listItem}>
-            <Link
-                to={'/size'}
-                color="transparent"
-                className={classes.navLink}
-            >
-                ขนาดเสื้อ
-            </Link>
-        </ListItem>
+            </ListItem>
             <ListItem className={classes.listItem}>
                 <Link
                     to={'/cotncol'}
@@ -88,6 +80,15 @@ function HeaderLinks({...props}) {
                     className={classes.navLink}
                 >
                     สีและเนื้อผ้า
+                </Link>
+            </ListItem>
+            <ListItem className={classes.listItem}>
+                <Link
+                    to={'/size'}
+                    color="transparent"
+                    className={classes.navLink}
+                >
+                    ขนาดเสื้อ
                 </Link>
             </ListItem>
             <ListItem className={classes.listItem}>

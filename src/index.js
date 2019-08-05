@@ -25,6 +25,8 @@ import "assets/css/custom.css";
 // pages for this product
 import LandingPage from "views/LandingPage/LandingPage.jsx";
 import ProfilePage from "views/ProfilePage/ProfilePage.jsx";
+import About from "views/About/about.jsx"
+
 import LoginPage from "views/LoginPage/LoginPage.jsx";
 import PromotionPage from "./views/Promotions/PromotionPage";
 import CotNCol from "./views/CotNCol/CotNCol";
@@ -36,8 +38,8 @@ ReactDOM.render(
   <Router history={hist}>
     <Switch>
       <Route path="/landing-page" component={LandingPage} />
-      <Route path="/profile-page" component={ProfilePage} />
       <Route path="/login-page" component={LoginPage} />
+      <Route path="/profile-page" component={About} />
       <Route path="/promotion" component={PromotionPage} />
       <Route path="/cotncol" component={CotNCol} />
       <Route path="/size" component={Sizing} />

@@ -39,7 +39,7 @@ class ProductSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2 className={classes.title}>รู้จัก SCNP</h2>
+            <h2 className={classes.title}>ทำกับเราทำด้วยใจ SCNP</h2>
             <h5 className={classes.description}>
               เราเป็นโรงงานผลิตเสื้อผ้าสำเร็จรูปที่มีคุณภาพและครบวงจร
               ตั้งแต่การขึ้นแพทเทิร์น ตัดเย็บ รวมไปถึงการปัก/สกรีน
@@ -63,7 +63,7 @@ class ProductSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
                 title="ต่อรองราคาได้"
-                description="เนื่องจากร้านเราได้นำเทคโนโลยีมาใช้ในการลดต้นทุนการผลิต จึงทำให้คุณลูกค้าสามารถต่อรองราคาได้เหมือนเป็นครอบครัวเดียวกัน"
+                description="เนื่องจากเราต้องการให้คุณลูกค้าได้รับเสื้อผ้าที่ถูกใจ และเป็นไปตามต้องการ เราจึงเปิดโอกาสให้ลูกค้าสามารถสอบถามและต่อรองราคาได้เสมือนเป็นครอบครัวเดียวกัน"
                 icon={Chat}
                 iconColor="info"
                 vertical

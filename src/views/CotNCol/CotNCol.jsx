@@ -34,66 +34,75 @@ import Button from "components/CustomButtons/Button.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 import NotAvalible from "../../components/NotAvalible/NotAbalible";
+import polochart from "../../assets/img/content/polochart1.png"
+import shirtchart from "../../assets/img/content/shirtchart1.png"
+import polocot from "../../assets/img/content/polocot1.png"
+import shirtcot from "../../assets/img/content/shirtcot1.png"
+
 
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
+import promotion from "../../assets/img/promotions/promotion-01.png";
 
 const dashboardRoutes = [];
 
 class LandingPage extends React.Component {
-  render() {
-    const { classes, ...rest } = this.props;
-    return (
-      <div>
-        <link
-          rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-          crossOrigin="anonymous"
-        />
-        <Header
-          color="transparent"
-          routes={dashboardRoutes}
-          brand="SCNP การปัก"
-          rightLinks={<HeaderLinks />}
-          fixed
-          changeColorOnScroll={{
-            height: 400,
-            color: "white"
-          }}
-          {...rest}
-        />
-        <Parallax filter image={require("assets/img/landing-bg.jpg")}>
-          <div className={classes.container}>
-            <GridContainer>
-              <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>คุณภาพต้องมาก่อน!</h1>
-                <h4>เราใช้เทคโนโลยีช่วยในการลดต้นทุนและเพิ่มคุณภาพในการผลิต</h4>
-                <br />
-                <Button
-                  color="danger"
-                  size="lg"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fas fa-tags" />
-                  เช็คสถานะคำสั่งซื้อออนไลน์
-                </Button>
-              </GridItem>
-            </GridContainer>
-          </div>
-        </Parallax>
-        <div className={classNames(classes.main, classes.mainRaised)}>
-          <NotAvalible />
-        </div>
-        <Footer />
-      </div>
-    );
-  }
+    render() {
+        const {classes, ...rest} = this.props;
+        return (
+            <div>
+                <link
+                    rel="stylesheet"
+                    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                    crossOrigin="anonymous"
+                />
+                <Header
+                    color="transparent"
+                    routes={dashboardRoutes}
+                    brand="SCNP การปัก"
+                    rightLinks={<HeaderLinks/>}
+                    fixed
+                    changeColorOnScroll={{
+                        height: 400,
+                        color: "white"
+                    }}
+                    {...rest}
+                />
+                <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+                    <div className={classes.container}>
+                        <GridContainer>
+                            <GridItem xs={12} sm={12} md={6}>
+                                <h1 className={classes.title}>คุณภาพต้องมาก่อน!</h1>
+                                <h4>เราใช้เทคโนโลยีช่วยในการลดต้นทุนและเพิ่มคุณภาพในการผลิต</h4>
+                                <br/>
+                                <Button
+                                    color="danger"
+                                    size="lg"
+                                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i className="fas fa-tags"/>
+                                    เช็คสถานะคำสั่งซื้อออนไลน์
+                                </Button>
+                            </GridItem>
+                        </GridContainer>
+                    </div>
+                </Parallax>
+                <div className={classNames(classes.main, classes.mainRaised)}>
+                    <img src={polochart} style={{width:'100%'}} alt={'polo chart pic'} />
+                    <img src={shirtchart} style={{width:'100%'}} alt={'shirt chart pic'} />
+                    <img src={polocot} style={{width:'100%'}} alt={'shirt chart pic'} />
+                    <img src={shirtcot} style={{width:'100%'}} alt={'shirt chart pic'} />
+                </div>
+                <Footer/>
+            </div>
+        );
+    }
 }
 
 LandingPage.propTypes = {
-  classes: PropTypes.object
+    classes: PropTypes.object
 };
 
 export default withStyles(landingPageStyle)(LandingPage);

@@ -36,153 +36,84 @@ import CardFooter from "components/Card/CardFooter.jsx";
 import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx";
 
 import team1 from "assets/img/content/hotelreview.jpg";
-import team2 from "assets/img/content/fiet_logo.jpg";
+import team2 from "assets/img/content/review1.png";
 import team3 from "assets/img/content/wedding.jpg";
 
 class TeamSection extends React.Component {
-  render() {
-    const { classes } = this.props;
-    const imageClasses = classNames(
-      classes.imgRaised,
-      classes.imgRoundedCircle,
-      classes.imgFluid
-    );
-    return (
-      <div className={classes.section}>
-        <h2 className={classes.title}>รีวิวจากลูกค้าจริง</h2>
-        <div>
-          <GridContainer>
-            <GridItem xs={12} sm={12} md={4}>
-              <Card plain>
-                <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={team1} alt="..." className={imageClasses} />
-                </GridItem>
-                <h4 className={classes.cardTitle}>
-                  Geeko POLO
-                  <br />
-                  <small className={classes.smallTitle}>Model</small>
-                </h4>
-                <CardBody>
-                  <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
-                    follow them outside the site.
-                  </p>
-                </CardBody>
-                <CardFooter className={classes.justifyCenter}>
-                  <a
-                    href={"http://www.geekocustom.com/"}
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <i className={classes.socials + " fab fa-globe"} />
-                  </a>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <i className={classes.socials + " fab fa-instagram"} />
-                  </Button>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <i className={classes.socials + " fab fa-facebook"} />
-                  </Button>
-                </CardFooter>
-              </Card>
-            </GridItem>
-            <GridItem xs={12} sm={12} md={4}>
-              <Card plain>
-                <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={team2} alt="..." className={imageClasses} />
-                </GridItem>
-                <h4 className={classes.cardTitle}>
-                  Christian Louboutin
-                  <br />
-                  <small className={classes.smallTitle}>Designer</small>
-                </h4>
-                <CardBody>
-                  <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
-                    follow them outside the site.
-                  </p>
-                </CardBody>
-                <CardFooter className={classes.justifyCenter}>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <i className={classes.socials + " fab fa-twitter"} />
-                  </Button>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <i className={classes.socials + " fab fa-linkedin"} />
-                  </Button>
-                </CardFooter>
-              </Card>
-            </GridItem>
-            <GridItem xs={12} sm={12} md={4}>
-              <Card plain>
-                <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={team3} alt="..." className={imageClasses} />
-                </GridItem>
-                <h4 className={classes.cardTitle}>
-                  Kendall Jenner
-                  <br />
-                  <small className={classes.smallTitle}>Model</small>
-                </h4>
-                <CardBody>
-                  <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
-                    follow them outside the site.
-                  </p>
-                </CardBody>
-                <CardFooter className={classes.justifyCenter}>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <i className={classes.socials + " fab fa-twitter"} />
-                  </Button>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <i className={classes.socials + " fab fa-instagram"} />
-                  </Button>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <i className={classes.socials + " fab fa-facebook"} />
-                  </Button>
-                </CardFooter>
-              </Card>
-            </GridItem>
-          </GridContainer>
-        </div>
-      </div>
-    );
-  }
+    render() {
+        const {classes} = this.props;
+        const imageClasses = classNames(
+            classes.imgRaised,
+            classes.imgRoundedCircle,
+            classes.imgFluid
+        );
+        return (
+            <div className={classes.section}>
+                <h2 className={classes.title}>รีวิวจากลูกค้าจริง</h2>
+                <div>
+                    <GridContainer>
+                        <GridItem xs={12} sm={12} md={4}>
+                            <Card plain>
+                                <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                                    <img src={team1} alt="..." className={imageClasses}/>
+                                </GridItem>
+                                <h4 className={classes.cardTitle}>
+                                    Jaroonsak Grand Trang
+                                    <br/>
+                                    <small className={classes.smallTitle}>Hotel</small>
+                                </h4>
+                                <CardBody>
+                                    <p className={classes.description}>
+                                        ได้เสื่้อแล้วถูกใจมากค่ะ สกรีนดีมากปรับแก้ได้ตามใจ ชอบมากค่ะ
+                                    </p>
+                                </CardBody>
+
+                            </Card>
+                        </GridItem>
+                        <GridItem xs={12} sm={12} md={4}>
+                            <Card plain>
+                                <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                                    <img src={team2} alt="..." className={imageClasses}/>
+                                </GridItem>
+                                <h4 className={classes.cardTitle}>
+                                    Look X Foto Factory
+                                    <br/>
+                                    <small className={classes.smallTitle}>Photographer</small>
+                                </h4>
+                                <CardBody>
+                                    <p className={classes.description}>
+                                        ถูกใจมากๆครับ งานตามใจลูกค้าสุดๆ
+                                    </p>
+                                </CardBody>
+
+                            </Card>
+                        </GridItem>
+                        <GridItem xs={12} sm={12} md={4}>
+                            <Card plain>
+                                <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                                    <img src={team3} alt="..." className={imageClasses}/>
+                                </GridItem>
+                                <h4 className={classes.cardTitle}>
+                                    Tee Design Wedding
+                                    <br/>
+                                    <small className={classes.smallTitle}>Wedding Studio</small>
+                                </h4>
+                                <CardBody>
+                                    <p className={classes.description}>
+                                        เนื้อผ้าดีมาก งานปักสวย ถูกใจมากค่ะ
+                                    </p>
+                                </CardBody>
+                            </Card>
+                        </GridItem>
+                    </GridContainer>
+                </div>
+            </div>
+        );
+    }
 }
 
 TeamSection.propTypes = {
-  classes: PropTypes.object
+    classes: PropTypes.object
 };
 
 export default withStyles(teamStyle)(TeamSection);

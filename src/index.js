@@ -39,7 +39,7 @@ ReactDOM.render(
       <Route path="/profile-page" component={ProfilePage} />
       <Route path="/login-page" component={LoginPage} />
       <Route path="/promotion" component={PromotionPage} />
-      <Route path="/cotnnol" component={CotNCol} />
+      <Route path="/cotncol" component={CotNCol} />
       <Route path="/size" component={Sizing} />
       <Route path="/" component={LandingPage} />
     </Switch>

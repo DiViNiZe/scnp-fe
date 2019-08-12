@@ -22,9 +22,6 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
-
-// @material-ui/icons
-
 // core components
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
@@ -33,7 +30,6 @@ import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
-import NotAvalible from "../../components/NotAvalible/NotAbalible";
 import polochart from "../../assets/img/content/polochart1.png"
 import shirtchart from "../../assets/img/content/shirtchart1.png"
 import polocot from "../../assets/img/content/polocot1.png"
@@ -41,7 +37,8 @@ import shirtcot from "../../assets/img/content/shirtcot1.png"
 
 
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
-import promotion from "../../assets/img/promotions/promotion-01.png";
+
+// @material-ui/icons
 
 const dashboardRoutes = [];
 
@@ -73,7 +70,8 @@ class LandingPage extends React.Component {
                         <GridContainer>
                             <GridItem xs={12} sm={12} md={6}>
                                 <h1 className={classes.title}>คุณภาพต้องมาก่อน!</h1>
-                                <h4>เราใช้เทคโนโลยีช่วยในการลดต้นทุนและเพิ่มคุณภาพในการผลิต</h4>
+                                <h4>เราใช้เทคโนโลยีช่วยในการเพิ่มคุณภาพในการผลิต
+                                </h4>
                                 <br/>
                                 <Button
                                     color="danger"
@@ -90,10 +88,10 @@ class LandingPage extends React.Component {
                     </div>
                 </Parallax>
                 <div className={classNames(classes.main, classes.mainRaised)}>
-                    <img src={polochart} style={{width:'100%'}} alt={'polo chart pic'} />
-                    <img src={shirtchart} style={{width:'100%'}} alt={'shirt chart pic'} />
-                    <img src={polocot} style={{width:'100%'}} alt={'shirt chart pic'} />
-                    <img src={shirtcot} style={{width:'100%'}} alt={'shirt chart pic'} />
+                    <img src={polochart} style={{width: '100%'}} alt={'polo chart pic'}/>
+                    <img src={shirtchart} style={{width: '100%'}} alt={'shirt chart pic'}/>
+                    <img src={polocot} style={{width: '100%'}} alt={'shirt chart pic'}/>
+                    <img src={shirtcot} style={{width: '100%'}} alt={'shirt chart pic'}/>
                 </div>
                 <Footer/>
             </div>

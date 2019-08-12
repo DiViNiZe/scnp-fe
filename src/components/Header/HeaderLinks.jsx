@@ -66,6 +66,14 @@ function HeaderLinks({...props}) {
             </ListItem>
             <ListItem className={classes.listItem}>
                 <Link
+                    to={'/'}
+                    color="transparent"
+                    className={classes.navLink}
+                >
+                    หน้าหลัก
+                </Link>
+            </ListItem><ListItem className={classes.listItem}>
+                <Link
                     to={'/promotion'}
                     color="transparent"
                     className={classes.navLink}

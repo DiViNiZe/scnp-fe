@@ -85,13 +85,14 @@ function Footer({ ...props }) {
           &copy; {1900 + new Date().getYear()} , made with{" "}
           <Favorite className={classes.icon} /> by{" "}
           <a
-            href="https://www.creative-tim.com?ref=mkr-footer"
+            href="https://www.facebook.com/nittayapeer/"
             className={aClasses}
             target="_blank"
           >
-            Creative Tim
+            Digital Disruptive
           </a>{" "}
-          for a better web.
+          (SCNP Innovation)
+          for a better web experience.
         </div>
       </div>
     </footer>

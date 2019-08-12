@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a6b8c5b-f797-4e6f-9a9e-60116949b219" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/About/about.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/content/scnp-white-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/contactPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Maps/locationSection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/CheckStatus/checkstatus.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/LandingPage/Sections/ContactSection.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/loginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/loginPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/profilePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/profilePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/About/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/About/about.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Promotions/PromotionPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Promotions/PromotionPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +36,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1OzQ0yk5kfFzPlbFiuA3PdpYULn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -30,7 +49,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img/content" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -42,7 +61,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -50,11 +69,11 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/img/content" />
+      <recent name="$PROJECT_DIR$/src/assets/jss/material-kit-react/views" />
       <recent name="$PROJECT_DIR$/src/views" />
       <recent name="$PROJECT_DIR$/src/assets/img/carousel" />
-      <recent name="$PROJECT_DIR$/src/assets/img/content" />
       <recent name="$PROJECT_DIR$/src/assets/img/promotions" />
-      <recent name="$PROJECT_DIR$/src/assets/img/productpic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -102,7 +121,7 @@
       <workItem from="1563675793655" duration="9769000" />
       <workItem from="1564977729839" duration="331000" />
       <workItem from="1564990597699" duration="555000" />
-      <workItem from="1564991729500" duration="4655000" />
+      <workItem from="1564991729500" duration="24514000" />
     </task>
     <servers />
   </component>

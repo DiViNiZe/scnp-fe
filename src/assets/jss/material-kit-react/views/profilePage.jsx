@@ -15,65 +15,101 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import { container, title } from "assets/jss/material-kit-react.jsx";
+import {container, title} from "assets/jss/material-kit-react.jsx";
 
 import imagesStyle from "assets/jss/material-kit-react/imagesStyles.jsx";
 
 const profilePageStyle = {
-  container,
-  profile: {
-    textAlign: "center",
-    "& img": {
-      maxWidth: "160px",
-      width: "100%",
-      margin: "0 auto",
-      transform: "translate3d(0, -50%, 0)"
+    container,
+    profile: {
+        textAlign: "center",
+        "& img": {
+            maxWidth: "160px",
+            width: "100%",
+            margin: "0 auto",
+            transform: "translate3d(0, -50%, 0)"
+        }
+    },
+    description: {
+        margin: "1.071rem auto 0",
+        maxWidth: "600px",
+        color: "#999",
+        textAlign: "center !important",
+        fontSize: '66px'
+    },
+    name: {
+        marginTop: "-80px"
+    },
+    ...imagesStyle,
+    main: {
+        background: "#FFFFFF",
+        position: "relative",
+        zIndex: "3"
+    },
+    mainRaised: {
+        margin: "-60px 30px 0px",
+        borderRadius: "6px",
+        boxShadow:
+            "0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)"
+    },
+    title: {
+        ...title,
+        display: "inline-block",
+        position: "relative",
+        marginTop: "30px",
+        minHeight: "32px",
+        textDecoration: "none"
+    },
+    socials: {
+        marginTop: "0",
+        width: "100%",
+        transform: "none",
+        left: "0",
+        top: "0",
+        height: "100%",
+        lineHeight: "41px",
+        fontSize: "20px",
+        color: "#999"
+    },
+    navWrapper: {
+        margin: "20px auto 50px auto",
+        textAlign: "center"
+    },
+    aboutInfomation: {
+        color: "#999",
+
+    },
+    socialLine: {
+        color: 'green',
+        fontSize: '60px !important'
+    },
+    socialInstagram: {
+        color: '#9b6954',
+        fontSize: '60px !important'
+    },
+    socialFacebook: {
+        color: '#3C5A99',
+        fontSize: '60px !important'
+    },
+    socialMedia: {
+        display: 'flex',
+        justifyContent: 'space-around'
+    },
+    socialPhone: {
+        color: '#777',
+        fontSize: '30px !important'
+    },
+    phoneContainer: {
+        textAlign: 'center',
+        fontSize: '10px',
+        margin: "5px 1px",
+        paddingRight: '10px',
+        width: "52px",
+        height: "100%",
+        display: "inline-block",
+        bottom: '0',
+        verticalAlign: 'center'
     }
-  },
-  description: {
-    margin: "1.071rem auto 0",
-    maxWidth: "600px",
-    color: "#999",
-    textAlign: "center !important"
-  },
-  name: {
-    marginTop: "-80px"
-  },
-  ...imagesStyle,
-  main: {
-    background: "#FFFFFF",
-    position: "relative",
-    zIndex: "3"
-  },
-  mainRaised: {
-    margin: "-60px 30px 0px",
-    borderRadius: "6px",
-    boxShadow:
-      "0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)"
-  },
-  title: {
-    ...title,
-    display: "inline-block",
-    position: "relative",
-    marginTop: "30px",
-    minHeight: "32px",
-    textDecoration: "none"
-  },
-  socials: {
-    marginTop: "0",
-    width: "100%",
-    transform: "none",
-    left: "0",
-    top: "0",
-    height: "100%",
-    lineHeight: "41px",
-    fontSize: "20px",
-    color: "#999"
-  },
-  navWrapper: {
-    margin: "20px auto 50px auto",
-    textAlign: "center"
-  }
 };
 
 export default profilePageStyle;

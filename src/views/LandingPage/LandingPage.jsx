@@ -22,9 +22,6 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
-
-// @material-ui/icons
-
 // core components
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
@@ -35,82 +32,83 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
-
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.jsx";
 import TeamSection from "./Sections/TeamSection.jsx";
-import WorkSection from "./Sections/WorkSection.jsx";
 import GallerySection from "./Sections/GallerySection.jsx";
 import CarouselSection from "./Sections/CarouselSection.jsx";
+import ContactSection from "./Sections/ContactSection.jsx";
+
+// @material-ui/icons
 
 const dashboardRoutes = [];
 
 class LandingPage extends React.Component {
-  render() {
-    const { classes, ...rest } = this.props;
-    return (
-      <div>
-        <link
-          rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-          crossOrigin="anonymous"
-        />
-        <Header
-          color="transparent"
-          routes={dashboardRoutes}
-          brand="SCNP การปัก"
-          rightLinks={<HeaderLinks />}
-          fixed
-          changeColorOnScroll={{
-            height: 400,
-            color: "white"
-          }}
-          {...rest}
-        />
-        <Parallax filter image={require("assets/img/landing-bg.jpg")}>
-          <div className={classes.container}>
-            <GridContainer>
-              <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>
-                  มาปักกับเราเถอะ รับรองไม่ผิดหวัง.
-                </h1>
-                <h4>
-                  รับปักเสื้อและสกีนเสื้อ ทั้งเสื้อยืดเสื้อโปโล
-                  งานคุณภาพราคาเป็นมิตรการันตีด้วยประสบการณ์การทำงานมากกว่า30ปี
-                </h4>
-                <br />
-                <Button
-                  color="danger"
-                  size="lg"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fas fa-tags" />
-                  เช็คสถานะคำสั่งซื้อออนไลน์
-                </Button>
-              </GridItem>
-            </GridContainer>
-          </div>
-        </Parallax>
-        <div className={classNames(classes.main, classes.mainRaised)}>
-          <div className={classes.container}>
-            <CarouselSection />
-            <ProductSection />
-            <TeamSection />
-            <GallerySection />
-            <WorkSection />
-          </div>
-        </div>
-        <Footer />
-      </div>
-    );
-  }
+    render() {
+        const {classes, ...rest} = this.props;
+        return (
+            <div>
+                <link
+                    rel="stylesheet"
+                    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                    crossOrigin="anonymous"
+                />
+                <Header
+                    color="transparent"
+                    routes={dashboardRoutes}
+                    brand="SCNP การปัก"
+                    rightLinks={<HeaderLinks/>}
+                    fixed
+                    changeColorOnScroll={{
+                        height: 400,
+                        color: "white"
+                    }}
+                    {...rest}
+                />
+                <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+                    <div className={classes.container}>
+                        <GridContainer>
+                            <GridItem xs={12} sm={12} md={6}>
+                                <h1 className={classes.title}>
+                                    มาปักกับเราเถอะ รับรองไม่ผิดหวัง.
+                                </h1>
+                                <h4>
+                                    รับปักเสื้อและสกีนเสื้อ ทั้งเสื้อยืดเสื้อโปโล
+                                    งานคุณภาพราคาเป็นมิตรการันตีด้วยประสบการณ์การทำงานมากกว่า30ปี
+                                </h4>
+                                <br/>
+                                <Button
+                                    color="danger"
+                                    size="lg"
+                                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i className="fas fa-tags"/>
+                                    เช็คสถานะคำสั่งซื้อออนไลน์
+                                </Button>
+                            </GridItem>
+                        </GridContainer>
+                    </div>
+                </Parallax>
+                <div className={classNames(classes.main, classes.mainRaised)}>
+                    <div className={classes.container}>
+                        <CarouselSection/>
+                        <ProductSection/>
+                        <TeamSection/>
+                        <GallerySection/>
+                        <ContactSection/>
+                    </div>
+                </div>
+                <Footer/>
+            </div>
+        );
+    }
 }
 
 LandingPage.propTypes = {
-  classes: PropTypes.object
+    classes: PropTypes.object
 };
 
 export default withStyles(landingPageStyle)(LandingPage);

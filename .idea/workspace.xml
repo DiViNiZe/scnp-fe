@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a6b8c5b-f797-4e6f-9a9e-60116949b219" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/content/scnp-white-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/contactPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Maps/locationSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/CheckStatus/checkstatus.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/LandingPage/Sections/ContactSection.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/loginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/loginPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/profilePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/profilePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/About/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/About/about.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Promotions/PromotionPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Promotions/PromotionPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +106,7 @@
       <workItem from="1563675793655" duration="9769000" />
       <workItem from="1564977729839" duration="331000" />
       <workItem from="1564990597699" duration="555000" />
-      <workItem from="1564991729500" duration="24514000" />
+      <workItem from="1564991729500" duration="26035000" />
     </task>
     <servers />
   </component>

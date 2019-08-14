@@ -69,16 +69,6 @@ class LandingPage extends React.Component {
                                 <h4>เราใช้เทคโนโลยีช่วยในการเพิ่มคุณภาพในการผลิต
                                 </h4>
                                 <br/>
-                                <Button
-                                    color="danger"
-                                    size="lg"
-                                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <i className="fas fa-tags"/>
-                                    เช็คสถานะคำสั่งซื้อออนไลน์
-                                </Button>
                             </GridItem>
                         </GridContainer>
                     </div>

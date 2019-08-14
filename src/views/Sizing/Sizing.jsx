@@ -31,14 +31,18 @@ import Button from "components/CustomButtons/Button.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 import NotAvalible from "../../components/NotAvalible/NotAbalible";
-
-import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
+import shirt from '../../assets/img/shirt-size/shirt.png'
+import tShirt from '../../assets/img/shirt-size/t-shirt.png'
+import tcShirt from '../../assets/img/shirt-size/tc-shirt.png'
+import tkShirt from '../../assets/img/shirt-size/tk-shirt.png'
+import tkMicroShirt from '../../assets/img/shirt-size/tk-micro-shirt.png'
+import sizingPageStyle from "assets/jss/material-kit-react/views/sizeingPage.jsx";
 
 // @material-ui/icons
 
 const dashboardRoutes = [];
 
-class LandingPage extends React.Component {
+class SizeingPage extends React.Component {
     render() {
         const {classes, ...rest} = this.props;
         return (
@@ -72,7 +76,7 @@ class LandingPage extends React.Component {
                                 <Button
                                     color="danger"
                                     size="lg"
-                                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                                    href="/status"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -84,7 +88,11 @@ class LandingPage extends React.Component {
                     </div>
                 </Parallax>
                 <div className={classNames(classes.main, classes.mainRaised)}>
-                    <NotAvalible/>
+                    <img className={classes.shirtSize} src={shirt} />
+                    <img className={classes.shirtSize} src={tShirt} />
+                    <img className={classes.shirtSize} src={tcShirt} />
+                    <img className={classes.shirtSize} src={tkShirt} />
+                    <img className={classes.shirtSize} src={tkMicroShirt} />
                 </div>
                 <Footer/>
             </div>
@@ -92,8 +100,8 @@ class LandingPage extends React.Component {
     }
 }
 
-LandingPage.propTypes = {
+SizeingPage.propTypes = {
     classes: PropTypes.object
 };
 
-export default withStyles(landingPageStyle)(LandingPage);
+export default withStyles(sizingPageStyle)(SizeingPage);

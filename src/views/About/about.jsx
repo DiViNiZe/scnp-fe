@@ -127,7 +127,7 @@ class ProfilePage extends React.Component {
                                                              showConfirmButton: false,
                                                              timer: 1500
                                                          })}>
-                                            <span><i className={classes.socialPhone + " fa fa-phone"}/>0970129389</span></CopyToClipboard>
+                                            <span><i className={classes.socialPhone + " fa fa-phone"}/>092946639</span></CopyToClipboard>
                                     </div>
                                 </GridItem>
                             </GridContainer>

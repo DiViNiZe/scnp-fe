@@ -88,11 +88,10 @@ class SizeingPage extends React.Component {
                     </div>
                 </Parallax>
                 <div className={classNames(classes.main, classes.mainRaised)}>
-                    <img className={classes.shirtSize} src={shirt} />
                     <img className={classes.shirtSize} src={tShirt} />
                     <img className={classes.shirtSize} src={tcShirt} />
-                    <img className={classes.shirtSize} src={tkShirt} />
                     <img className={classes.shirtSize} src={tkMicroShirt} />
+                    <img className={classes.shirtSize} src={tkShirt} />
                 </div>
                 <Footer/>
             </div>

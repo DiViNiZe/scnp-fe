@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5a6b8c5b-f797-4e6f-9a9e-60116949b219" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/About/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/About/about.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/CheckStatus/checkstatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CheckStatus/checkstatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/CotNCol/CotNCol.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CotNCol/CotNCol.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ProfilePage/ProfilePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ProfilePage/ProfilePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Promotions/PromotionPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Promotions/PromotionPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Sizing/Sizing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Sizing/Sizing.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,15 +56,15 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/jss/material-kit-react/views" />
       <recent name="$PROJECT_DIR$/src/assets/img/shirt-size" />
+      <recent name="$PROJECT_DIR$/src/assets/jss/material-kit-react/views" />
       <recent name="$PROJECT_DIR$/src/assets/img/promotions" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/assets/img/content" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -109,7 +115,7 @@
       <workItem from="1564991729500" duration="26035000" />
       <workItem from="1565692321056" duration="778000" />
       <workItem from="1565718688626" duration="3102000" />
-      <workItem from="1565881998408" duration="218000" />
+      <workItem from="1565881998408" duration="1311000" />
     </task>
     <servers />
   </component>

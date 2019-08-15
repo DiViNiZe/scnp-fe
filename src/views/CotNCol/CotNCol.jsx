@@ -70,7 +70,7 @@ class LandingPage extends React.Component {
                         <GridContainer>
                             <GridItem xs={12} sm={12} md={6}>
                                 <h1 className={classes.title}>คุณภาพต้องมาก่อน!</h1>
-                                <h4>เราใช้เทคโนโลยีช่วยในการเพิ่มคุณภาพในการผลิต
+                                <h4>เราใช้เทคโนโลยีช่วยในการเพิ่มคุณภาพการผลิต
                                 </h4>
                                 <br/>
                                 <Button

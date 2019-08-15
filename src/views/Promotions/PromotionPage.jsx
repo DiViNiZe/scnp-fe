@@ -15,33 +15,34 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React from "react"
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
 // nodejs library that concatenates classes
-import classNames from "classnames";
-// @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
-// core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Button from "components/CustomButtons/Button.jsx";
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import Parallax from "components/Parallax/Parallax.jsx";
+import classNames from "classnames"
 
-import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
+import PropTypes from "prop-types";
+
+// @material-ui/core components
+// core components
+import Header from "components/Header/Header.jsx"
+import Footer from "components/Footer/Footer.jsx"
+import GridContainer from "components/Grid/GridContainer.jsx"
+import GridItem from "components/Grid/GridItem.jsx"
+import Button from "components/CustomButtons/Button.jsx"
+import HeaderLinks from "components/Header/HeaderLinks.jsx"
+import Parallax from "components/Parallax/Parallax.jsx"
 import promotion from '../../assets/img/promotions/promotion-01.png'
-import {Link} from "react-router-dom";
+import {Link} from "react-router-dom"
+import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx"
+import withStyles from "@material-ui/core/styles/withStyles";
 
 // @material-ui/icons
 
-const dashboardRoutes = [];
+const dashboardRoutes = []
 
-class LandingPage extends React.Component {
+class PromotionPage extends React.Component {
     render() {
-        const {classes, ...rest} = this.props;
+        const {classes, ...rest} = this.props
         return (
             <div>
                 <link
@@ -67,7 +68,8 @@ class LandingPage extends React.Component {
                         <GridContainer>
                             <GridItem xs={12} sm={12} md={6}>
                                 <h1 className={classes.title}>คุณภาพต้องมาก่อน!</h1>
-                                <h4>เราใช้เทคโนโลยีช่วยในการเพิ่มคุณภาพในการผลิต</h4>
+                                <h4>เราใช้เทคโนโลยีช่วยในการเพิ่มคุณภาพการผลิต
+                                </h4>
                                 <br/>
                                 <Button
                                     color="danger"
@@ -89,12 +91,12 @@ class LandingPage extends React.Component {
                 </div>
                 <Footer/>
             </div>
-        );
+        )
     }
 }
 
-LandingPage.propTypes = {
+PromotionPage.propTypes = {
     classes: PropTypes.object
-};
+}
 
-export default withStyles(landingPageStyle)(LandingPage);
+export default withStyles(landingPageStyle)(PromotionPage)

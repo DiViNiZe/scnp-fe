@@ -15,40 +15,40 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React from "react"
 // nodejs library to set properties for componenlts
-import PropTypes from "prop-types";
+import PropTypes from "prop-types"
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from "classnames"
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles"
 // @material-ui/icons
 // core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
-import Button from "components/CustomButtons/Button.jsx";
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import Parallax from "components/Parallax/Parallax.jsx";
-import {CopyToClipboard} from 'react-copy-to-clipboard';
+import Header from "components/Header/Header.jsx"
+import Footer from "components/Footer/Footer.jsx"
+import Button from "components/CustomButtons/Button.jsx"
+import GridContainer from "components/Grid/GridContainer.jsx"
+import GridItem from "components/Grid/GridItem.jsx"
+import HeaderLinks from "components/Header/HeaderLinks.jsx"
+import Parallax from "components/Parallax/Parallax.jsx"
+import {CopyToClipboard} from 'react-copy-to-clipboard'
 import Swal from 'sweetalert2'
 
-import logo from "assets/img/content/scnp-white-logo.jpg";
+import logo from "assets/img/content/scnp-white-logo.jpg"
 
-import LocationSection from '../../components/Maps/locationSection.jsx';
+import LocationSection from '../../components/Maps/locationSection.jsx'
 
-import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
+import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx"
 
 class ProfilePage extends React.Component {
     render() {
-        const {classes, ...rest} = this.props;
+        const {classes, ...rest} = this.props
         const imageClasses = classNames(
             classes.imgRaised,
             classes.imgRoundedCircle,
             classes.imgFluid
-        );
-        const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
+        )
+        const navImageClasses = classNames(classes.imgRounded, classes.imgGallery)
         return (
             <div>
                 <Header
@@ -254,12 +254,12 @@ class ProfilePage extends React.Component {
                 </div>
                 <Footer/>
             </div>
-        );
+        )
     }
 }
 
 ProfilePage.propTypes = {
     classes: PropTypes.object
-};
+}
 
-export default withStyles(profilePageStyle)(ProfilePage);
+export default withStyles(profilePageStyle)(ProfilePage)

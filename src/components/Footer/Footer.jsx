@@ -16,74 +16,73 @@
 
 */
 /*eslint-disable*/
-import React from "react";
+import React from "react"
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "prop-types"
 // nodejs library that concatenates classes
-import classNames from "classnames";
-import { List, ListItem, withStyles } from "@material-ui/core";
-
+import classNames from "classnames"
+import {List, ListItem, withStyles} from "@material-ui/core"
 // @material-ui/icons
-import Favorite from "@material-ui/icons/Favorite";
+import Favorite from "@material-ui/icons/Favorite"
 
-import footerStyle from "assets/jss/material-kit-react/components/footerStyle.jsx";
+import footerStyle from "assets/jss/material-kit-react/components/footerStyle.jsx"
 
-function Footer({ ...props }) {
-  const { classes, whiteFont } = props;
-  const footerClasses = classNames({
-    [classes.footer]: true,
-    [classes.footerWhiteFont]: whiteFont
-  });
-  const aClasses = classNames({
-    [classes.a]: true,
-    [classes.footerWhiteFont]: whiteFont
-  });
-  return (
-    <footer className={footerClasses}>
-      <div className={classes.container}>
-        <div className={classes.left}>
-          <List className={classes.list}>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.facebook.com/fluke.ramin"
-                className={classes.block}
-                target="_blank"
-              >
-                Patric Emmel
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                  href="https://www.facebook.com/nittayapeer"
-                className={classes.block}
-                target="_blank"
-              >
-                About us
-              </a>
-            </ListItem>
-          </List>
-        </div>
-        <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
-          <a
-            href="https://www.facebook.com/nittayapeer/"
-            className={aClasses}
-            target="_blank"
-          >
-            Digital Disruptive
-          </a>{" "}
-          (SCNP Innovation)
-          for a better web experience.
-        </div>
-      </div>
-    </footer>
-  );
+function Footer({...props}) {
+    const {classes, whiteFont} = props
+    const footerClasses = classNames({
+        [classes.footer]: true,
+        [classes.footerWhiteFont]: whiteFont
+    })
+    const aClasses = classNames({
+        [classes.a]: true,
+        [classes.footerWhiteFont]: whiteFont
+    })
+    return (
+        <footer className={footerClasses}>
+            <div className={classes.container}>
+                <div className={classes.left}>
+                    <List className={classes.list}>
+                        <ListItem className={classes.inlineBlock}>
+                            <a
+                                href="https://www.facebook.com/fluke.ramin"
+                                className={classes.block}
+                                target="_blank"
+                            >
+                                Patric Emmel
+                            </a>
+                        </ListItem>
+                        <ListItem className={classes.inlineBlock}>
+                            <a
+                                href="https://www.facebook.com/nittayapeer"
+                                className={classes.block}
+                                target="_blank"
+                            >
+                                About us
+                            </a>
+                        </ListItem>
+                    </List>
+                </div>
+                <div className={classes.right}>
+                    &copy; {1900 + new Date().getYear()} , made with{" "}
+                    <Favorite className={classes.icon}/> by{" "}
+                    <a
+                        href="https://www.facebook.com/nittayapeer/"
+                        className={aClasses}
+                        target="_blank"
+                    >
+                        Digital Disruptive
+                    </a>{" "}
+                    (SCNP Innovation)
+                    for a better web experience.
+                </div>
+            </div>
+        </footer>
+    )
 }
 
 Footer.propTypes = {
-  classes: PropTypes.object.isRequired,
-  whiteFont: PropTypes.bool
-};
+    classes: PropTypes.object.isRequired,
+    whiteFont: PropTypes.bool
+}
 
-export default withStyles(footerStyle)(Footer);
+export default withStyles(footerStyle)(Footer)

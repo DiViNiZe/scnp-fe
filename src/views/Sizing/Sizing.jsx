@@ -15,36 +15,34 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React from "react"
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "prop-types"
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from "classnames"
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles"
 // core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Button from "components/CustomButtons/Button.jsx";
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import Parallax from "components/Parallax/Parallax.jsx";
-import NotAvalible from "../../components/NotAvalible/NotAbalible";
-import shirt from '../../assets/img/shirt-size/shirt.png'
+import Header from "components/Header/Header.jsx"
+import Footer from "components/Footer/Footer.jsx"
+import GridContainer from "components/Grid/GridContainer.jsx"
+import GridItem from "components/Grid/GridItem.jsx"
+import Button from "components/CustomButtons/Button.jsx"
+import HeaderLinks from "components/Header/HeaderLinks.jsx"
+import Parallax from "components/Parallax/Parallax.jsx"
 import tShirt from '../../assets/img/shirt-size/t-shirt.png'
 import tcShirt from '../../assets/img/shirt-size/tc-shirt.png'
 import tkShirt from '../../assets/img/shirt-size/tk-shirt.png'
 import tkMicroShirt from '../../assets/img/shirt-size/tk-micro-shirt.png'
-import sizingPageStyle from "assets/jss/material-kit-react/views/sizeingPage.jsx";
+import sizingPageStyle from "assets/jss/material-kit-react/views/sizeingPage.jsx"
 
 // @material-ui/icons
 
-const dashboardRoutes = [];
+const dashboardRoutes = []
 
 class SizeingPage extends React.Component {
     render() {
-        const {classes, ...rest} = this.props;
+        const {classes, ...rest} = this.props
         return (
             <div>
                 <link
@@ -70,7 +68,7 @@ class SizeingPage extends React.Component {
                         <GridContainer>
                             <GridItem xs={12} sm={12} md={6}>
                                 <h1 className={classes.title}>คุณภาพต้องมาก่อน!</h1>
-                                <h4>เราใช้เทคโนโลยีช่วยในการเพิ่มคุณภาพในการผลิต
+                                <h4>เราใช้เทคโนโลยีช่วยในการเพิ่มคุณภาพการผลิต
                                 </h4>
                                 <br/>
                                 <Button
@@ -88,19 +86,19 @@ class SizeingPage extends React.Component {
                     </div>
                 </Parallax>
                 <div className={classNames(classes.main, classes.mainRaised)}>
-                    <img className={classes.shirtSize} src={tShirt} />
-                    <img className={classes.shirtSize} src={tcShirt} />
-                    <img className={classes.shirtSize} src={tkMicroShirt} />
-                    <img className={classes.shirtSize} src={tkShirt} />
+                    <img className={classes.shirtSize} src={tShirt}/>
+                    <img className={classes.shirtSize} src={tcShirt}/>
+                    <img className={classes.shirtSize} src={tkMicroShirt}/>
+                    <img className={classes.shirtSize} src={tkShirt}/>
                 </div>
                 <Footer/>
             </div>
-        );
+        )
     }
 }
 
 SizeingPage.propTypes = {
     classes: PropTypes.object
-};
+}
 
-export default withStyles(sizingPageStyle)(SizeingPage);
+export default withStyles(sizingPageStyle)(SizeingPage)
